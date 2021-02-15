@@ -9,6 +9,4 @@
   // require_once SYSDIR.'Rupro.php';
   // $this_login->logSesion($koneksi);
 
-  // $this_support->test_variable();
-
 ?>
