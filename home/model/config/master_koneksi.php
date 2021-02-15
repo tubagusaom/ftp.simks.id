@@ -1,6 +1,6 @@
 
 <?php
-	$env = 'lokal'; // lokal atau online
+	$env = 'online'; // lokal atau online
 
 	if($env=='lokal'){
 		$host	 		= "localhost";
@@ -9,11 +9,11 @@
 		$dabname	= "kopkarw1_kope";
 		$base			= "http://localhost/project/koprasi/";
 	}else{
-		$host	 		= "localhost";
-		$user		 	= "root";
-		$pass	 		= "";
+		$host	 		= "ftp.simks.id";
+		$user		 	= "simf1855_koperasi_oi";
+		$pass	 		= "koperasi@2021";
 		$dabname 	= "kopkarw1_kope";
-		$base			= "http://ebe.esy.es/";
+		$base			= "http://koperasi-oi.simks.id/";
 	}
 
 	// $conn = mysql_connect( $host, $user, $pass) or die('Could not connect to mysql server.' );
